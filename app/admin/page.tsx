@@ -84,48 +84,55 @@ export default function AdminPage() {
           </div>
         )}
 
-        {/* 수집 버튼 */}
-        <div className="bg-white rounded-xl border border-gray-100 p-8 shadow-sm">
-          <p className="text-sm text-gray-500 mb-6 leading-relaxed">
-            전 세계 9개 쇼핑몰에서 상품을 수집합니다.<br />
-            완료까지 2~5분 정도 소요될 수 있습니다.
+        {/* 로컬 수집 안내 */}
+        <div className="bg-blue-50 rounded-xl border border-blue-200 p-6 mb-8">
+          <p className="text-sm text-blue-900 font-medium mb-3">📍 로컬에서 수집하기</p>
+          <p className="text-xs text-blue-800 mb-4 leading-relaxed">
+            Vercel 서버에서는 크롤링이 불가능합니다.<br />
+            <strong>로컬 컴퓨터에서 다음 명령어를 실행하세요:</strong>
           </p>
+          <code className="block bg-white text-charcoal text-xs p-3 rounded border border-blue-100 font-mono mb-4">
+            npm run collect
+          </code>
+          <p className="text-xs text-blue-800">
+            ✅ 4개 사이트에서 상품 수집<br />
+            ✅ TOP 100 선정<br />
+            ✅ 자동으로 DB에 저장 (이 사이트에 반영됨)
+          </p>
+        </div>
 
-          <button
-            onClick={handleCollect}
-            disabled={collecting}
-            className="w-full py-4 bg-charcoal text-white font-medium rounded-xl
-                       hover:bg-gray-800 disabled:opacity-50 disabled:cursor-not-allowed
-                       transition-all duration-200 text-sm"
-          >
-            {collecting ? (
-              <span className="flex items-center justify-center gap-2">
-                <span className="animate-spin inline-block w-4 h-4 border-2 border-white border-t-transparent rounded-full" />
-                수집 중...
-              </span>
-            ) : (
-              '지금 수집하기'
-            )}
-          </button>
+        {/* 현황 정보 */}
+        <div className="bg-white rounded-xl border border-gray-100 p-8 shadow-sm">
+          <h3 className="font-medium text-charcoal mb-6 text-sm">현재 데이터 상태</h3>
+
+          {status && (
+            <div className="space-y-3 mb-6">
+              <div className="flex justify-between items-center py-2 border-b border-gray-100">
+                <span className="text-xs text-gray-500">마지막 수집</span>
+                <span className="text-sm text-charcoal font-medium">{formatKoreanDate(status.lastDate)}</span>
+              </div>
+              <div className="flex justify-between items-center py-2 border-b border-gray-100">
+                <span className="text-xs text-gray-500">현재 저장된 상품</span>
+                <span className="text-sm text-charcoal font-medium">{status.lastCount}개</span>
+              </div>
+              <div className="flex justify-between items-center py-2">
+                <span className="text-xs text-gray-500">보관 중인 날짜</span>
+                <span className="text-sm text-charcoal font-medium">{status.totalDates}일</span>
+              </div>
+            </div>
+          )}
 
           {/* 결과 메시지 */}
           {result && (
-            <div className="mt-4 p-4 bg-emerald-50 text-emerald-700 text-sm rounded-lg">
+            <div className="p-4 bg-emerald-50 text-emerald-700 text-xs rounded-lg">
               {result}
             </div>
           )}
           {error && (
-            <div className="mt-4 p-4 bg-rose-50 text-rose-600 text-sm rounded-lg">
+            <div className="p-4 bg-rose-50 text-rose-600 text-xs rounded-lg">
               {error}
             </div>
           )}
-        </div>
-
-        {/* 자동 수집 안내 */}
-        <div className="mt-6 p-4 bg-gray-50 rounded-lg text-xs text-gray-400 leading-relaxed">
-          <strong className="text-gray-500">자동 수집 스케줄</strong><br />
-          매일 오전 9시 (KST) 자동으로 수집됩니다.<br />
-          수집된 데이터는 30일 후 자동 삭제됩니다.
         </div>
       </main>
     </div>
