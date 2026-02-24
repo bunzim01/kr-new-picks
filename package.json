@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "collect": "tsx scripts/collect.ts",
-    "db:init": "tsx scripts/db-init.ts"
+    "db:init": "tsx scripts/db-init.ts",
+    "postinstall": "playwright install chromium"
   },
   "dependencies": {
     "next": "^16.1.6",
