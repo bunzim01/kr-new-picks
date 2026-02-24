@@ -3,7 +3,6 @@
 import { useState } from 'react'
 
 export default function CollectButton() {
-  const [collecting, setCollecting] = useState(false)
   const [deleting, setDeleting] = useState(false)
   const [status, setStatus] = useState<string>('')
   const [error, setError] = useState<string>('')
@@ -33,39 +32,13 @@ export default function CollectButton() {
     }
   }
 
-  // 수집만 실행 (삭제 없이)
-  async function handleCollect() {
-    setCollecting(true)
-    setStatus('')
-    setError('')
-
-    try {
-      setStatus('수집 중... (2~5분 소요)')
-      const res = await fetch('/api/cron/collect', { method: 'POST' })
-      const data = await res.json()
-
-      if (data.success) {
-        setStatus(`완료 — ${data.totalCrawled}개 수집 · ${data.saved}개 저장`)
-        setTimeout(() => window.location.reload(), 2000)
-      } else {
-        setError(data.error ?? '수집 실패')
-      }
-    } catch (err) {
-      setError(err instanceof Error ? err.message : '알 수 없는 오류')
-    } finally {
-      setCollecting(false)
-    }
-  }
-
-  const busy = collecting || deleting
-
   return (
     <div className="flex flex-col items-end gap-2">
       <div className="flex items-center gap-2">
         {/* 전체 삭제 버튼 */}
         <button
           onClick={handleDelete}
-          disabled={busy}
+          disabled={deleting}
           className="flex items-center gap-1.5 text-xs px-4 py-1.5
                      border border-rose-200 rounded-full text-rose-400
                      hover:border-rose-400 hover:text-rose-600
@@ -85,39 +58,34 @@ export default function CollectButton() {
           )}
         </button>
 
-        {/* 수집 버튼 */}
+        {/* 수집 버튼 — 비활성화 + 로컬 안내 */}
         <button
-          onClick={handleCollect}
-          disabled={busy}
+          disabled={true}
+          title="로컬에서만 수집 가능: npm run collect"
           className="flex items-center gap-1.5 text-xs px-4 py-1.5
-                     border border-gray-200 rounded-full text-gray-500
-                     hover:border-charcoal hover:text-charcoal
-                     disabled:opacity-50 disabled:cursor-not-allowed
+                     border border-gray-200 rounded-full text-gray-400
+                     cursor-not-allowed opacity-50
                      transition-all duration-200 bg-white"
         >
-          {collecting ? (
-            <>
-              <span className="animate-spin inline-block w-3 h-3 border-2 border-gray-400 border-t-transparent rounded-full" />
-              수집 중...
-            </>
-          ) : (
-            <>
-              <span>↻</span>
-              수집하기
-            </>
-          )}
+          <span>↻</span>
+          수집하기
         </button>
       </div>
 
-      {(collecting || deleting) && status && (
+      {deleting && status && (
         <p className="text-[11px] text-gray-400">{status}</p>
       )}
-      {!collecting && !deleting && status && (
+      {!deleting && status && (
         <p className="text-[11px] text-emerald-600">{status}</p>
       )}
       {error && (
         <p className="text-[11px] text-rose-500">{error}</p>
       )}
+
+      {/* 로컬 수집 안내 */}
+      <p className="text-[10px] text-gray-400 text-right">
+        💡 로컬에서 <code className="bg-gray-100 px-1.5 py-0.5 rounded text-gray-600">npm run collect</code> 실행
+      </p>
     </div>
   )
 }
