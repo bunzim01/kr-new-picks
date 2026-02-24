@@ -1,0 +1,12 @@
+{
+  "buildCommand": "npm install && npx playwright install chromium && npm run build",
+  "env": {
+    "PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD": "0"
+  },
+  "functions": {
+    "api/**/*.ts": {
+      "memory": 3008,
+      "maxDuration": 60
+    }
+  }
+}
