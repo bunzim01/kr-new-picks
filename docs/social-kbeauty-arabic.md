@@ -45,14 +45,28 @@ Uplika 를 통해 인스타그램 + 스레드에 게시
 5. 저장·팔로우 유도 (검은 배경)
 
 스레드는 글 위주라 같은 내용을 글로 올리고, 카드는 표지 1장만 붙입니다.
-미리보기: `data/social/samples/carousel-tip-3-preview.png`
+미리보기: `data/social/samples/theme-compare.png`
 
-## 3-1. 직접 만들어 보기
+## 3-1. 디자인 테마 (아랍권 취향)
+
+| 테마 | 느낌 | 색 | 제목 서체 |
+|------|------|----|-----------|
+| `gold` (기본값) | 걸프 지역 럭셔리 뷰티 | 딥 플럼 + 골드 | El Messiri |
+| `sand` | 따뜻하고 부드러운 데일리 | 샌드 누드 + 테라코타 | Amiri (전통 서체) |
+| `emerald` | 고급 스파, 한방 느낌 | 에메랄드 + 골드 | Reem Kufi (쿠픽 서체) |
+| `blush` | 기존 사이트 색 | 화이트 + 블러쉬 | Cairo |
+
+세 테마 모두 아치형 창문 프레임을 쓰고, `gold`와 `emerald`는 8각 별 문양을 배경에 은은하게 깝니다.
+테마는 `data/social/kbeauty-tips-ar.json` 의 `brand.theme` 값으로 정하거나, 실행할 때 `--theme sand` 처럼 지정합니다.
+비교 이미지: `data/social/samples/theme-compare.png`
+
+## 3-2. 직접 만들어 보기
 
 ```bash
 npm install
 npx tsx scripts/social/kbeauty-ar.ts            # 오늘 팁
 npx tsx scripts/social/kbeauty-ar.ts --tip 7    # 7번 팁
+npx tsx scripts/social/kbeauty-ar.ts --tip 3 --theme sand   # 테마 지정
 ```
 결과물은 `data/social/out/tip-N.png` 와 `tip-N.json`(캡션)에 저장됩니다.
 
@@ -72,5 +86,5 @@ npx tsx scripts/social/kbeauty-ar.ts --tip 7    # 7번 팁
 
 ## 6. 참고
 
-- 카드뉴스 미리보기: `data/social/samples/carousel-tip-3-preview.png`
+- 테마 비교 미리보기: `data/social/samples/theme-compare.png`
 - 클라우드 세션에서 실행할 때는 `CHROMIUM_PATH=/opt/pw-browsers/chromium` 환경변수가 필요합니다.
