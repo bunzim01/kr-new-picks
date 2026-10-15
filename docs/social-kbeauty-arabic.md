@@ -34,7 +34,20 @@ Uplika 를 통해 인스타그램 + 스레드에 게시
 - 인스타 캡션: 제목 + 본문 + 저장 유도 문구 + 해시태그 10개
 - 스레드 캡션: 제목 + 본문 + 해시태그 3개 (500자 제한 준수)
 
-## 3. 직접 카드 한 장 만들어 보기
+## 3. 인스타 카드뉴스 (5장)
+
+팁에 `carousel` 내용이 있으면 5장짜리 카드뉴스로, 없으면 1장 카드로 만들어집니다.
+
+1. 표지: 제목 + "넘겨서 비법 보기"
+2. 흔한 실수
+3. 한국식 올바른 방법 (번호 3단계)
+4. 보너스 팁
+5. 저장·팔로우 유도 (검은 배경)
+
+스레드는 글 위주라 같은 내용을 글로 올리고, 카드는 표지 1장만 붙입니다.
+미리보기: `data/social/samples/carousel-tip-3-preview.png`
+
+## 3-1. 직접 만들어 보기
 
 ```bash
 npm install
@@ -59,5 +72,5 @@ npx tsx scripts/social/kbeauty-ar.ts --tip 7    # 7번 팁
 
 ## 6. 참고
 
-- 샘플 카드: `data/social/samples/tip-3.png`
+- 카드뉴스 미리보기: `data/social/samples/carousel-tip-3-preview.png`
 - 클라우드 세션에서 실행할 때는 `CHROMIUM_PATH=/opt/pw-browsers/chromium` 환경변수가 필요합니다.

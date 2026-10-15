@@ -13,6 +13,17 @@ interface Tip {
   ko: string
   ar_title: string
   ar: string
+  carousel?: Carousel
+}
+// 카드뉴스(여러 장) 내용 — 있으면 5장짜리 카드뉴스, 없으면 1장 카드
+interface Carousel {
+  mistake_ko: string
+  mistake_ar: string
+  steps_title_ar: string
+  steps_ko: string[]
+  steps_ar: string[]
+  bonus_ko: string
+  bonus_ar: string
 }
 interface TipBank {
   brand: { handle: string; signature_ar: string; signature_ko: string }
@@ -61,6 +72,74 @@ function buildCaptions(bank: TipBank, tip: Tip) {
     threads = `✨ ${tip.ar_title}\n\n${tip.ar}`.slice(0, 497) + '…'
   }
   return { instagram, threads }
+}
+
+
+// 카드뉴스 공통 틀 — 모든 장이 같은 배경/폰트/하단 계정 표시를 공유
+function shell(bank: TipBank, tip: Tip, page: number, total: number, body: string, dark = false) {
+  const bg = dark ? '#1A1A1A' : '#FAFAF8'
+  const fg = dark ? '#FAFAF8' : '#1A1A1A'
+  return `<!doctype html>
+<html lang="ar" dir="rtl"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&family=Noto+Serif+KR:wght@600&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { width: 1080px; height: 1350px; background: ${bg}; color: ${fg}; font-family: 'Cairo', sans-serif; }
+  .card { position: relative; width: 100%; height: 100%; padding: 90px 80px; display: flex; flex-direction: column; justify-content: space-between; overflow: hidden; }
+  .blob { position: absolute; border-radius: 50%; background: #E8B4B8; opacity: ${dark ? '.18' : '.35'}; }
+  .b1 { width: 520px; height: 520px; top: -200px; left: -160px; }
+  .b2 { width: 360px; height: 360px; bottom: -120px; right: -100px; opacity: ${dark ? '.12' : '.25'}; }
+  .top, .mid, .bottom { position: relative; }
+  .top { display: flex; justify-content: space-between; align-items: center; }
+  .pill { background: ${fg}; color: ${bg}; font-weight: 700; font-size: 30px; padding: 12px 34px; border-radius: 999px; }
+  .page { font-weight: 800; font-size: 32px; color: #C98B91; direction: ltr; }
+  .label { display: inline-block; font-size: 34px; font-weight: 800; color: #C98B91; margin-bottom: 26px; }
+  .bar { width: 160px; height: 10px; background: #E8B4B8; border-radius: 999px; margin-bottom: 38px; }
+  h1 { font-size: 92px; line-height: 1.22; font-weight: 800; }
+  h2 { font-size: 64px; line-height: 1.3; font-weight: 800; margin-bottom: 40px; }
+  p { font-size: 56px; line-height: 1.7; }
+  .swipe { margin-top: 60px; font-size: 36px; font-weight: 700; color: #C98B91; }
+  ol { list-style: none; counter-reset: s; }
+  li { counter-increment: s; display: flex; gap: 28px; align-items: flex-start; font-size: 44px; line-height: 1.6; margin-bottom: 40px; }
+  li::before { content: counter(s); flex: 0 0 76px; height: 76px; border-radius: 50%; background: #E8B4B8; color: #1A1A1A; font-weight: 800; font-size: 40px; display: flex; align-items: center; justify-content: center; margin-top: 4px; }
+  .bottom { display: flex; justify-content: space-between; align-items: flex-end; border-top: 2px solid #E8B4B8; padding-top: 34px; }
+  .handle { font-size: 34px; font-weight: 700; direction: ltr; }
+  .ko { font-family: 'Noto Serif KR', serif; font-size: 28px; color: #8A8A8A; direction: ltr; }
+</style></head><body>
+<div class="card">
+  <div class="blob b1"></div><div class="blob b2"></div>
+  <div class="top"><span class="pill">الجمال الكوري</span><span class="page">${page} / ${total}</span></div>
+  <div class="mid">${body}</div>
+  <div class="bottom"><span class="handle">${bank.brand.handle}</span><span class="ko">${tip.topic} · K-Beauty</span></div>
+</div></body></html>`
+}
+
+// 카드뉴스 5장: 표지 → 흔한 실수 → 한국식 방법 → 보너스 팁 → 저장/팔로우 유도
+function carouselHtml(bank: TipBank, tip: Tip): string[] {
+  const c = tip.carousel!
+  const total = 5
+  return [
+    shell(bank, tip, 1, total, `
+      <div class="label">نصيحة #${tip.id} · ${bank.brand.signature_ar}</div>
+      <div class="bar"></div>
+      <h1>${tip.ar_title}</h1>
+      <div class="swipe">اسحبي لتعرفي السر ←</div>`),
+    shell(bank, tip, 2, total, `
+      <div class="label">❌ الخطأ الشائع</div>
+      <div class="bar"></div>
+      <p>${c.mistake_ar}</p>`),
+    shell(bank, tip, 3, total, `
+      <div class="label">✅ الطريقة الصحيحة</div>
+      <h2>${c.steps_title_ar}</h2>
+      <ol>${c.steps_ar.map((x) => `<li>${x}</li>`).join('')}</ol>`),
+    shell(bank, tip, 4, total, `
+      <div class="label">💡 نصيحة إضافية</div>
+      <div class="bar"></div>
+      <p>${c.bonus_ar}</p>`),
+    shell(bank, tip, 5, total, `
+      <h1>احفظي المنشور 📌</h1>
+      <p style="margin-top:40px">وتابعي <b style="direction:ltr;display:inline-block">${bank.brand.handle}</b><br>لنصيحة جمال كورية جديدة كل يوم 🇰🇷</p>`, true),
+  ]
 }
 
 // 카드 HTML — 아랍어는 RTL, 구글 폰트(Cairo) 사용
@@ -112,28 +191,34 @@ async function main() {
   if (!tip) throw new Error(`팁 #${tipId} 을(를) 찾을 수 없습니다 (1~${bank.tips.length})`)
 
   fs.mkdirSync(out, { recursive: true })
-  const png = path.join(out, `tip-${tip.id}.png`)
   const json = path.join(out, `tip-${tip.id}.json`)
+  // 카드뉴스 내용이 있으면 5장, 없으면 1장
+  const pages = tip.carousel ? carouselHtml(bank, tip) : [cardHtml(bank, tip)]
+  const images: string[] = []
 
   // 환경변수 CHROMIUM_PATH 가 있으면 그 실행 파일 사용 (클라우드 세션용), 없으면 Playwright 기본 설치본
   const browser = await chromium.launch({ executablePath: process.env.CHROMIUM_PATH || undefined })
   const page = await browser.newPage({ viewport: { width: 1080, height: 1350 } })
-  await page.setContent(cardHtml(bank, tip), { waitUntil: 'networkidle' })
-  await page.evaluate(() => (document as any).fonts.ready) // 웹폰트 로딩 대기
-  await page.screenshot({ path: png, type: 'png' })
+  for (let i = 0; i < pages.length; i++) {
+    const png = path.join(out, pages.length > 1 ? `tip-${tip.id}-${i + 1}.png` : `tip-${tip.id}.png`)
+    await page.setContent(pages[i], { waitUntil: 'networkidle' })
+    await page.evaluate(() => (document as any).fonts.ready) // 웹폰트 로딩 대기
+    await page.screenshot({ path: png, type: 'png' })
+    images.push(png)
+  }
   await browser.close()
 
   const captions = buildCaptions(bank, tip)
   fs.writeFileSync(
     json,
     JSON.stringify(
-      { id: tip.id, topic: tip.topic, ko: tip.ko, image: png, width: 1080, height: 1350, ...captions },
+      { id: tip.id, topic: tip.topic, ko: tip.ko, images, width: 1080, height: 1350, ...captions },
       null,
       2,
     ),
   )
   console.log(`✅ 팁 #${tip.id} (${tip.topic})`)
-  console.log(`   이미지: ${png}`)
+  console.log(`   이미지 ${images.length}장: ${images.join(', ')}`)
   console.log(`   캡션:   ${json}`)
   console.log(`   인스타 ${captions.instagram.length}자 / 스레드 ${captions.threads.length}자`)
 }
