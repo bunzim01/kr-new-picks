@@ -20,7 +20,7 @@
 - 워크스페이스: `kbeauty_arabic` = `ws_4058396cfd342bb4` (살림노트는 `ws_5c98999d21e54b0f`, 건드리지 말 것)
 - 계정: 인스타 `conn_8ace7be1166383bb`, 스레드 `conn_a71a29d74998efb2` (12월 중순 토큰 만료 전 재연결)
 - 댓글 자동 인사 (고정 문장 5개 중 하나, 운영자 요청으로 AI 답글은 끔)
-  - 인스타 `af_1c622f3d86913414`, 스레드 `af_a16cf15e71af579e`
+  - 인스타 `af_1c622f3d86913414` (켜짐), 스레드 `af_a16cf15e71af579e` (운영자 요청으로 중지)
 
 ## 게시 현황
 - 첫인사 영상 게시 완료 (인스타 릴스 https://www.instagram.com/reel/DeoDcqUFfM-/ , 스레드 https://www.threads.com/@kbeauty_arabic/post/DeoDab8ilVM )
