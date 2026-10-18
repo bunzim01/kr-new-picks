@@ -28,6 +28,25 @@ TOPICS = {
 QWORDS = ["؟", "?", "هل ", "كيف", "ليش", "لماذا", "ليه", "وش ", "ايش", "شو ", "ازاي", "متى", "وين", "فين", "كم ", "مين ", "ممكن", "ابي اعرف", "ابغى اعرف", "ابغي اعرف", "نفسي اعرف", "سؤال", "اسالك", "علميني", "علمينا", "قوليلي", "قولي لي", "انصحيني", "تنصحيني", "شنو"]
 FEMALE = ["انا بنت", "انا وحده", "معجبه", "مهتمه", "متابعه", "حابه", "نايمه", "عاشقه", "مدمنه", "فرحانه", "زعلانه", "انا سعوديه", "انا مصريه", "انا عراقيه", "انا كويتيه", "انا اماراتيه", "انا جزائريه", "انا مغربيه", "انا اردنيه", "انا سوريه", "انا فلسطينيه", "انا يمنيه", "انا ليبيه", "انا تونسيه", "انا قطريه", "انا عمانيه", "انا بحرينيه", "متحمسه", "مشتاقه", "خايفه", "ابنتي", "بنوته"]
 
+# 뷰티 세부 주제 (라이브에서 많이 나온 '루틴·트러블 케어'를 나눠서 확인)
+BEAUTY = {
+    "트러블·여드름": ["حبوب", "حب الشباب", "بثور", "اثار الحبوب", "اثار", "رؤوس سوداء", "روس سوداء", "خالي من الحبوب", "التهاب"],
+    "유리알·광채 피부": ["زجاج", "تلمع", "نضار", "نقاء", "صافي", "صافيه", "مشرق", "اشراق", "جلاس"],
+    "루틴·순서": ["روتين", "خطوات", "ترتيب", "صباحي", "مسائي", "ليلي"],
+    "톤·미백·잡티": ["تبييض", "تفتيح", "بيضاء", "بيضا", "تصبغ", "كلف", "توحيد", "نمش", "بقع"],
+    "모공·피지": ["مسام", "دهني", "دهنيه", "لمعه", "زيوت"],
+    "선크림": ["واقي", "صن بلوك", "شمس"],
+    "천연·홈케어": ["خلطات", "خلطه", "طبيعي", "طبيعيه", "رز", "الارز", "ماء الرز", "عسل", "منزلي"],
+    "제품·구매처": ["منتج", "اسم ال", "وين اشتري", "من وين", "رابط", "سعر", "يتوفر", "اوليف", "نون", "امازون"],
+    "보습·건조": ["ترطيب", "جاف", "جفاف", "مرطب"],
+    "피부과·시술": ["عياده", "ليزر", "بوتوكس", "فيلر", "جلديه", "طبيب"],
+}
+def beauty_of(t):
+    return [k for k, ws in BEAUTY.items() if any(w in t for w in ws)]
+
+# 질문처럼 보이지만 인사·참여 유도인 문장 (질문에서 제외)
+BAIT = ["مين جاي", "مين جا ", "مين مثلي", "مين متلي", "مين يلي", "مين الي", "مين اللي", "مين هنا", "مين ملاحظ", "مين لاحظ", "مين خلص", "مين معي", "مين ركز", "مين شاف", "منو يريد", "مين يشوف", "كم شخص", "ارمي وين"]
+
 def topics_of(t):
     return [k for k, ws in TOPICS.items() if any(w in t for w in ws)]
 
@@ -64,10 +83,10 @@ ar = [c for c in cm if len(AR.findall(c["text"])) >= max(3, 0.4 * len(re.sub(r"\
 out = []
 for c in ar:
     t = norm(c["text"])
-    q = any(w in t for w in QWORDS) or any(w in c["text"] for w in ["؟", "?"])
+    q = (any(w in t for w in QWORDS) or any(w in c["text"] for w in ["؟", "?"])) and not any(b in t for b in BAIT)
     fem = any(w in t for w in FEMALE)
     out.append({"group": c["group"], "video": c["video"], "likes": likes(c["likes"]), "is_question": q, "female_marker": fem,
-                "topics": "|".join(topics_of(t)), "text": c["text"].replace("\n", " ")})
+                "topics": "|".join(topics_of(t)), "beauty": "|".join(beauty_of(t)), "text": c["text"].replace("\n", " ")})
 with open(os.path.join(D, "youtube_comments_tagged.csv"), "w", newline="", encoding="utf-8") as f:
     w = csv.DictWriter(f, fieldnames=list(out[0].keys())); w.writeheader(); w.writerows(out)
 
@@ -90,5 +109,15 @@ summary = {
 for name, rows in [("all_arabic", out), ("questions", qs), ("female_marked", [r for r in out if r["female_marker"]])]:
     c, l = topic_table(rows)
     summary["youtube"][f"topics_{name}"] = [(k, c[k], l[k]) for k, _ in c.most_common()]
+bc, bl = collections.Counter(), collections.Counter()
+for r in out:
+    for t in (r["beauty"].split("|") if r["beauty"] else []):
+        bc[t] += 1; bl[t] += r["likes"]
+summary["youtube"]["beauty_subtopics"] = [(k, bc[k], bl[k]) for k, _ in bc.most_common()]
+bac, bas = collections.Counter(), collections.Counter()
+for r in ac_rows:
+    for t in beauty_of(r["suggestion"]):
+        bac[t] += 1; bas[t] += r["score"]
+summary["autocomplete"]["beauty_subtopics"] = [(k, bac[k], bas[k]) for k, _ in bac.most_common()]
 json.dump(summary, open(os.path.join(D, "summary.json"), "w"), ensure_ascii=False, indent=1)
 print(json.dumps(summary, ensure_ascii=False, indent=1))
