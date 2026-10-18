@@ -98,3 +98,7 @@ instrumentation.ts  # Next.js 서버 시작 시 cron 등록
 | 강조 | `#E8B4B8` (소프트 블러쉬) |
 | 헤딩 폰트 | Noto Serif KR |
 | 본문 폰트 | Noto Sans KR |
+
+## 소셜 채널 작업 (아랍어 K-뷰티 @kbeauty_arabic)
+
+인스타그램·스레드 채널 작업은 `docs/handoff-kbeauty-arabic.md`를 먼저 읽고 이어서 진행한다.
