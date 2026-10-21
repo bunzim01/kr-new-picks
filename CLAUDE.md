@@ -23,6 +23,7 @@ npm run build        # 프로덕션 빌드
 npm run start        # 프로덕션 서버 실행
 npm run lint         # ESLint 검사
 npm run collect      # 수동 크롤링 실행 (스크립트)
+npm run collect:influencers   # 일본 인플루언서 수집 (CSV·API → 점수 → DB)
 ```
 
 **Node.js 요구사항**: v22.5.0 이상 (내장 `node:sqlite` 모듈 사용)
@@ -69,6 +70,20 @@ components/
 
 data/picks.db       # SQLite DB (자동 생성)
 instrumentation.ts  # Next.js 서버 시작 시 cron 등록
+
+# 일본 인플루언서 발굴 엔진 (docs/influencer-engine.md 참고)
+lib/influencer-types.ts     # 타입 (플랫폼·등급·접촉 단계·원본 지표)
+lib/influencer-weights.ts   # 점수 가중치·기준점
+lib/influencer-scorer.ts    # 영향력 25 · 판매력 40 · 이슈력 20 · 신뢰도 15
+lib/influencer-db.ts        # influencers · influencer_snapshots · influencer_lives · contact_logs
+lib/collect-influencers.ts  # 수집 오케스트레이터
+lib/sources/                # csv.ts · youtube.ts · instagram.ts · index.ts
+scripts/collect-influencers.ts
+app/influencers/            # 후보 목록 · [id] 상세 · guide 안내
+app/api/influencers/        # 목록 · stats · [id] (GET/PATCH) · [id]/lives (POST)
+components/influencers/     # 표·필터·배지·점수 막대·접촉 패널·방송 입력
+data/influencers/           # CSV 명단 (sample.csv 만 커밋, 실제 명단은 gitignore)
+docs/                       # 기획서(japan-influencer-discovery-plan.md), 엔진 안내(influencer-engine.md)
 ```
 
 ## 핵심 설계 결정
@@ -78,6 +93,7 @@ instrumentation.ts  # Next.js 서버 시작 시 cron 등록
 - **크롤러**: Playwright headless Chromium, 요청 간 2~3초 딜레이, 사이트 실패 시 건너뜀
 - **스코어링**: 신상품 +30 / 베스트셀러 +20 / 할인율 × 0.5 / 멀티소스 +10 / 중간가격대 +5
 - **Cron**: `instrumentation.ts` → `lib/cron.ts` → UTC 00:00 (= KST 09:00) 매일 실행
+- **인플루언서 발굴**: 크롤링 없이 CSV·공식 API 만 사용, 공개 수치만 저장, 방송 성과는 동의(consent) 후에만 기록. 같은 계정 재수집 시 지표·점수만 갱신하고 접촉 기록은 유지
 
 ## 스코어링 알고리즘
 

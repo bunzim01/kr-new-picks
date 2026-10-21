@@ -1,0 +1,7 @@
+platform,handle,display_name,profile_url,followers,engagement_rate,female_ratio,age_20_40_ratio,category_tags,live_count_90d,avg_live_viewers,comment_reply_rate,has_affiliate_link,is_tiktok_shop_seller,past_pr_posts,follower_growth_90d,viral_posts_90d,media_mentions,fake_follower_ratio,enjo_history,agency,contact_email,contact_url,region
+tiktok,sample_beauty_live_a,예시 뷰티 라이버 A,https://www.tiktok.com/@sample_beauty_live_a,38000,6.1,0.78,0.64,"뷰티, 스킨케어, 라이브",14,420,0.7,yes,yes,4,0.18,3,1,0.06,no,,sample-a@example.com,,Tokyo
+instagram,sample_skincare_b,예시 스킨케어 B,https://www.instagram.com/sample_skincare_b/,24000,2.9,0.82,0.7,"스킨케어, K뷰티",2,90,0.4,yes,no,6,0.07,1,0,0.08,no,예시 사무소,,https://example.com/contact,Osaka
+youtube,sample_lifestyle_c,예시 라이프스타일 C,https://www.youtube.com/@sample_lifestyle_c,150000,,0.6,0.55,"라이프스타일, 인테리어",0,,0.2,no,no,1,0.02,0,2,0.12,no,,,,Tokyo
+instagram,sample_mega_d,예시 메가 계정 D,https://www.instagram.com/sample_mega_d/,820000,0.6,0.7,0.5,"뷰티, 패션",1,1500,0.1,yes,no,12,-0.01,0,5,0.34,no,대형 사무소,,,Tokyo
+x,sample_buzz_e,예시 화제 계정 E,https://x.com/sample_buzz_e,12000,1.1,0.4,0.6,"아이디어 상품, 리뷰",0,,0.5,no,no,0,0.35,4,1,0.05,yes,,,,Fukuoka
+17live,sample_liver_f,예시 라이버 F,,9000,,0.65,0.7,"라이브, 토크",30,180,0.9,no,no,0,0.1,0,0,,no,예시 라이버 사무소,,,Nagoya

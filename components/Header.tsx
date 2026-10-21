@@ -28,6 +28,12 @@ export default function Header({ date }: HeaderProps) {
         {/* 네비게이션 */}
         <nav className="flex items-center gap-6">
           <Link
+            href="/influencers"
+            className="text-sm text-gray-500 hover:text-charcoal transition-colors"
+          >
+            인플루언서
+          </Link>
+          <Link
             href="/archive"
             className="text-sm text-gray-500 hover:text-charcoal transition-colors"
           >

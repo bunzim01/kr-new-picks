@@ -9,7 +9,8 @@
     "lint": "next lint",
     "collect": "tsx scripts/collect.ts",
     "db:init": "tsx scripts/db-init.ts",
-    "postinstall": "playwright install chromium"
+    "postinstall": "playwright install chromium",
+    "collect:influencers": "tsx scripts/collect-influencers.ts"
   },
   "dependencies": {
     "next": "^16.1.6",
