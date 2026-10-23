@@ -84,6 +84,9 @@ app/api/influencers/        # 목록 · stats · [id] (GET/PATCH) · [id]/lives 
 components/influencers/     # 표·필터·배지·점수 막대·접촉 패널·방송 입력
 data/influencers/           # CSV 명단 (sample.csv 만 커밋, 실제 명단은 gitignore)
 docs/                       # 기획서(japan-influencer-discovery-plan.md), 엔진 안내(influencer-engine.md)
+
+# 프로젝트 스킬
+.claude/skills/font-pairing-seqc/   # 폰트 짝 추천(원본 Sequence-st MIT + 일본어 확장). 폰트 파일은 넣지 않음
 ```
 
 ## 핵심 설계 결정

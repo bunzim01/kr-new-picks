@@ -1,0 +1,1126 @@
+[
+ {
+  "name": "프리텐다드",
+  "lang": "ko",
+  "role": "본문 고딕",
+  "look": "기본 고딕 9굵기. 본문·자막 만능",
+  "install": "https://noonnu.cc/font_page/694",
+  "webfont": [
+   {
+    "weight": 400,
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Regular.woff2"
+   },
+   {
+    "weight": 300,
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Light.woff2"
+   },
+   {
+    "weight": 700,
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Bold.woff2"
+   },
+   {
+    "weight": 800,
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-ExtraBold.woff2"
+   }
+  ],
+  "license": "상업 이용 OK — 눈누 사용 범위 6칸(인쇄·웹·포장지·영상·임베딩·BI/CI) 모두 「사용 가능」(2026-10-20 확인)",
+  "font_file": "배포 가능(판매 금지)",
+  "note": ""
+ },
+ {
+  "name": "수트",
+  "lang": "ko",
+  "role": "본문 고딕",
+  "look": "반듯한 고딕 9굵기",
+  "install": "https://noonnu.cc/font_page/845",
+  "webfont": [
+   {
+    "weight": 400,
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2"
+   },
+   {
+    "weight": 300,
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Light.woff2"
+   },
+   {
+    "weight": 700,
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Bold.woff2"
+   },
+   {
+    "weight": 800,
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-ExtraBold.woff2"
+   }
+  ],
+  "license": "상업 이용 OK — 눈누 사용 범위 6칸(인쇄·웹·포장지·영상·임베딩·BI/CI) 모두 「사용 가능」(2026-10-20 확인)",
+  "font_file": "배포 가능(판매 금지)",
+  "note": ""
+ },
+ {
+  "name": "Wanted Sans",
+  "lang": "ko",
+  "role": "본문 고딕",
+  "look": "또렷한 고딕, 숫자가 깔끔",
+  "install": "https://noonnu.cc/font_page/1269",
+  "webfont": [
+   {
+    "weight": 400,
+    "src": "https://raw.githubusercontent.com/wanteddev/wanted-sans/main/packages/wanted-sans/fonts/webfonts/static/complete/woff2/WantedSans-Regular.woff2"
+   },
+   {
+    "weight": 700,
+    "src": "https://raw.githubusercontent.com/wanteddev/wanted-sans/main/packages/wanted-sans/fonts/webfonts/static/complete/woff2/WantedSans-Bold.woff2"
+   },
+   {
+    "weight": 900,
+    "src": "https://raw.githubusercontent.com/wanteddev/wanted-sans/main/packages/wanted-sans/fonts/webfonts/static/complete/woff2/WantedSans-Black.woff2"
+   }
+  ],
+  "license": "상업 이용 OK — 눈누 사용 범위 6칸(인쇄·웹·포장지·영상·임베딩·BI/CI) 모두 「사용 가능」(2026-10-20 확인)",
+  "font_file": "배포 가능(판매 금지)",
+  "note": ""
+ },
+ {
+  "name": "G마켓 산스",
+  "lang": "ko",
+  "role": "본문 고딕",
+  "look": "둥근 기하 고딕 3굵기",
+  "install": "https://noonnu.cc/font_page/366",
+  "webfont": [
+   {
+    "weight": 500,
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff"
+   },
+   {
+    "weight": 300,
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff"
+   },
+   {
+    "weight": 700,
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff"
+   }
+  ],
+  "license": "상업 이용 OK — 눈누 사용 범위 6칸(인쇄·웹·포장지·영상·임베딩·BI/CI) 모두 「사용 가능」(2026-10-20 확인)",
+  "font_file": "배포 가능(판매 금지)",
+  "note": ""
+ },
+ {
+  "name": "페이퍼로지",
+  "lang": "ko",
+  "role": "본문 고딕",
+  "look": "정갈한 고딕 9굵기",
+  "install": "https://noonnu.cc/font_page/1456",
+  "webfont": [
+   {
+    "weight": 800,
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2"
+   },
+   {
+    "weight": 300,
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-3Light.woff2"
+   },
+   {
+    "weight": 400,
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-4Regular.woff2"
+   },
+   {
+    "weight": 700,
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-7Bold.woff2"
+   }
+  ],
+  "license": "상업 이용 OK — 눈누 사용 범위 6칸(인쇄·웹·포장지·영상·임베딩·BI/CI) 모두 「사용 가능」(2026-10-20 확인)",
+  "font_file": "배포 가능(판매 금지)",
+  "note": ""
+ },
+ {
+  "name": "에스코어드림",
+  "lang": "ko",
+  "role": "본문 고딕",
+  "look": "부드러운 고딕 9굵기",
+  "install": "https://noonnu.cc/font_page/223",
+  "webfont": [
+   {
+    "weight": 300,
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff"
+   },
+   {
+    "weight": 400,
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff"
+   },
+   {
+    "weight": 700,
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-7ExtraBold.woff"
+   },
+   {
+    "weight": 800,
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff"
+   }
+  ],
+  "license": "상업 이용 OK — 눈누 사용 범위 6칸(인쇄·웹·포장지·영상·임베딩·BI/CI) 모두 「사용 가능」(2026-10-20 확인)",
+  "font_file": "파일 재배포 금지",
+  "note": ""
+ },
+ {
+  "name": "나눔스퀘어 네오",
+  "lang": "ko",
+  "role": "본문 고딕",
+  "look": "네모난 고딕 5굵기",
+  "install": "https://noonnu.cc/font_page/1053",
+  "webfont": [
+   {
+    "weight": 300,
+    "src": "https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-aLt.woff2"
+   },
+   {
+    "weight": 400,
+    "src": "https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-bRg.woff2"
+   },
+   {
+    "weight": 700,
+    "src": "https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-cBd.woff2"
+   },
+   {
+    "weight": 800,
+    "src": "https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-dEb.woff2"
+   }
+  ],
+  "license": "상업 이용 OK — 눈누 사용 범위 6칸(인쇄·웹·포장지·영상·임베딩·BI/CI) 모두 「사용 가능」(2026-10-20 확인)",
+  "font_file": "배포 가능(판매 금지)",
+  "note": "나눔글꼴: 광고물 이미지가 나눔글꼴 홍보에 쓰일 수 있음(라이선스 문구)."
+ },
+ {
+  "name": "에이투지체",
+  "lang": "ko",
+  "role": "넓은 고딕",
+  "look": "옆으로 넓은 고딕 9굵기, 얇게도 굵게도",
+  "install": "https://noonnu.cc/font_page/1778",
+  "webfont": [
+   {
+    "weight": 300,
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/2601-6@1.0/에이투지체-3Light.woff2"
+   },
+   {
+    "weight": 500,
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/2601-6@1.0/에이투지체-5Medium.woff2"
+   },
+   {
+    "weight": 800,
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/2601-6@1.0/에이투지체-8ExtraBold.woff2"
+   }
+  ],
+  "license": "상업 이용 OK — 눈누 사용 범위 6칸(인쇄·웹·포장지·영상·임베딩·BI/CI) 모두 「사용 가능」(2026-10-20 확인)",
+  "font_file": "배포 가능(판매 금지)",
+  "note": ""
+ },
+ {
+  "name": "펴진고딕",
+  "lang": "ko",
+  "role": "넓은 고딕",
+  "look": "펼친 듯 넓은 고딕",
+  "install": "https://noonnu.cc/font_page/1586",
+  "webfont": [
+   {
+    "weight": 700,
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/2504-1@1.0/PyeojinGothic-Bold.woff2"
+   },
+   {
+    "weight": 300,
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/2504-1@1.0/PyeojinGothic-Light.woff2"
+   },
+   {
+    "weight": 400,
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/2504-1@1.0/PyeojinGothic-Regular.woff2"
+   }
+  ],
+  "license": "상업 이용 OK — 눈누 사용 범위 6칸(인쇄·웹·포장지·영상·임베딩·BI/CI) 모두 「사용 가능」(2026-10-20 확인)",
+  "font_file": "배포 가능(판매 금지)",
+  "note": ""
+ },
+ {
+  "name": "검은고딕",
+  "lang": "ko",
+  "role": "굵은 제목",
+  "look": "아주 굵은 블랙 제목",
+  "install": "https://noonnu.cc/font_page/106",
+  "webfont": [
+   {
+    "weight": "single",
+    "src": "https://cdn.jsdelivr.net/gh/google/fonts@main/ofl/blackhansans/BlackHanSans-Regular.ttf"
+   }
+  ],
+  "license": "상업 이용 OK — 눈누 사용 범위 6칸(인쇄·웹·포장지·영상·임베딩·BI/CI) 모두 「사용 가능」(2026-10-20 확인)",
+  "font_file": "배포 가능(판매 금지)",
+  "note": ""
+ },
+ {
+  "name": "어그로체",
+  "lang": "ko",
+  "role": "굵은 제목",
+  "look": "넓고 두꺼운 후킹 제목",
+  "install": "https://noonnu.cc/font_page/738",
+  "webfont": [
+   {
+    "weight": 700,
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff"
+   },
+   {
+    "weight": 300,
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroL.woff"
+   },
+   {
+    "weight": 500,
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroM.woff"
+   }
+  ],
+  "license": "상업 이용 OK — 눈누 사용 범위 6칸(인쇄·웹·포장지·영상·임베딩·BI/CI) 모두 「사용 가능」(2026-10-20 확인)",
+  "font_file": "파일 재배포 금지",
+  "note": ""
+ },
+ {
+  "name": "서울알림체",
+  "lang": "ko",
+  "role": "굵은 제목",
+  "look": "안내판 같은 굵은 고딕",
+  "install": "https://noonnu.cc/font_page/1604",
+  "webfont": [
+   {
+    "weight": 900,
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/2505-1@1.0/SeoulAlrimTTF-Heavy.woff2"
+   },
+   {
+    "weight": 500,
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/2505-1@1.0/SeoulAlrimTTF-Medium.woff2"
+   },
+   {
+    "weight": 700,
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/2505-1@1.0/SeoulAlrimTTF-Bold.woff2"
+   }
+  ],
+  "license": "상업 이용 OK — 눈누 사용 범위 6칸(인쇄·웹·포장지·영상·임베딩·BI/CI) 모두 「사용 가능」(2026-10-20 확인)",
+  "font_file": "파일 재배포 금지",
+  "note": ""
+ },
+ {
+  "name": "원스토어 모바일POP체",
+  "lang": "ko",
+  "role": "굵은 제목",
+  "look": "굵은 POP 고딕",
+  "install": "https://noonnu.cc/font_page/676",
+  "webfont": [
+   {
+    "weight": "single",
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-POP.woff"
+   }
+  ],
+  "license": "상업 이용 OK — 눈누 사용 범위 6칸(인쇄·웹·포장지·영상·임베딩·BI/CI) 모두 「사용 가능」(2026-10-20 확인)",
+  "font_file": "파일 재배포 금지",
+  "note": ""
+ },
+ {
+  "name": "주아체",
+  "lang": "ko",
+  "role": "귀여운",
+  "look": "둥글고 귀여운 제목",
+  "install": "https://noonnu.cc/font_page/53",
+  "webfont": [
+   {
+    "weight": "single",
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff"
+   }
+  ],
+  "license": "상업 이용 OK — 눈누 사용 범위 6칸(인쇄·웹·포장지·영상·임베딩·BI/CI) 모두 「사용 가능」(2026-10-20 확인)",
+  "font_file": "배포 가능(판매 금지)",
+  "note": ""
+ },
+ {
+  "name": "카페24 써라운드",
+  "lang": "ko",
+  "role": "귀여운",
+  "look": "둥글고 굵은 고딕",
+  "install": "https://noonnu.cc/font_page/669",
+  "webfont": [
+   {
+    "weight": "single",
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff"
+   }
+  ],
+  "license": "상업 이용 OK — 눈누 사용 범위 6칸(인쇄·웹·포장지·영상·임베딩·BI/CI) 모두 「사용 가능」(2026-10-20 확인)",
+  "font_file": "배포 가능(판매 금지)",
+  "note": ""
+ },
+ {
+  "name": "꾸불림체",
+  "lang": "ko",
+  "role": "귀여운",
+  "look": "꾸불꾸불 귀여운 디스플레이",
+  "install": "https://noonnu.cc/font_page/1500",
+  "webfont": [
+   {
+    "weight": "single",
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/2410-1@1.0/BMkkubulimTTF-Regular.woff2"
+   }
+  ],
+  "license": "상업 이용 OK — 눈누 사용 범위 6칸(인쇄·웹·포장지·영상·임베딩·BI/CI) 모두 「사용 가능」(2026-10-20 확인)",
+  "font_file": "배포 가능(판매 금지)",
+  "note": ""
+ },
+ {
+  "name": "HS집토끼체 라운드",
+  "lang": "ko",
+  "role": "귀여운",
+  "look": "굵고 둥근 손글씨",
+  "install": "https://noonnu.cc/font_page/1093",
+  "webfont": [
+   {
+    "weight": "single",
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/HSJiptokki-Round.woff2"
+   }
+  ],
+  "license": "상업 이용 OK — 눈누 사용 범위 6칸(인쇄·웹·포장지·영상·임베딩·BI/CI) 모두 「사용 가능」(2026-10-20 확인)",
+  "font_file": "배포 가능(판매 금지)",
+  "note": ""
+ },
+ {
+  "name": "밑미 폰트",
+  "lang": "ko",
+  "role": "귀여운",
+  "look": "굵고 둥근 손글씨",
+  "install": "https://noonnu.cc/font_page/1335",
+  "webfont": [
+   {
+    "weight": "single",
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_1@1.0/Ownglyph_meetme-Rg.woff2"
+   }
+  ],
+  "license": "상업 이용 OK — 눈누 사용 범위 6칸(인쇄·웹·포장지·영상·임베딩·BI/CI) 모두 「사용 가능」(2026-10-20 확인)",
+  "font_file": "파일 재배포 금지",
+  "note": ""
+ },
+ {
+  "name": "HS여름물빛체",
+  "lang": "ko",
+  "role": "귀여운",
+  "look": "굵고 각진 손글씨",
+  "install": "https://noonnu.cc/font_page/46",
+  "webfont": [
+   {
+    "weight": "single",
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/HSSummer.woff"
+   }
+  ],
+  "license": "상업 이용 OK — 눈누 사용 범위 6칸(인쇄·웹·포장지·영상·임베딩·BI/CI) 모두 「사용 가능」(2026-10-20 확인)",
+  "font_file": "배포 가능(판매 금지)",
+  "note": ""
+ },
+ {
+  "name": "마루 부리",
+  "lang": "ko",
+  "role": "부리(명조)",
+  "look": "현대적인 부리 5굵기",
+  "install": "https://noonnu.cc/font_page/487",
+  "webfont": [
+   {
+    "weight": 400,
+    "src": "https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.woff2"
+   },
+   {
+    "weight": 600,
+    "src": "https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-SemiBold.woff2"
+   },
+   {
+    "weight": 700,
+    "src": "https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Bold.woff2"
+   },
+   {
+    "weight": 300,
+    "src": "https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Light.woff2"
+   }
+  ],
+  "license": "상업 이용 OK — 눈누 사용 범위 6칸(인쇄·웹·포장지·영상·임베딩·BI/CI) 모두 「사용 가능」(2026-10-20 확인)",
+  "font_file": "배포 가능(판매 금지)",
+  "note": "나눔글꼴: 광고물 이미지가 나눔글꼴 홍보에 쓰일 수 있음(라이선스 문구)."
+ },
+ {
+  "name": "나눔명조",
+  "lang": "ko",
+  "role": "부리(명조)",
+  "look": "정통 명조 3굵기",
+  "install": "https://noonnu.cc/font_page/41",
+  "webfont": [
+   {
+    "weight": 400,
+    "src": "https://hangeul.pstatic.net/hangeul_static/webfont/NanumMyeongjo/NanumMyeongjo.ttf"
+   },
+   {
+    "weight": 700,
+    "src": "https://hangeul.pstatic.net/hangeul_static/webfont/NanumMyeongjo/NanumMyeongjoBold.ttf"
+   },
+   {
+    "weight": 800,
+    "src": "https://hangeul.pstatic.net/hangeul_static/webfont/NanumMyeongjo/NanumMyeongjoExtraBold.ttf"
+   }
+  ],
+  "license": "상업 이용 OK — 눈누 사용 범위 6칸(인쇄·웹·포장지·영상·임베딩·BI/CI) 모두 「사용 가능」(2026-10-20 확인)",
+  "font_file": "배포 가능(판매 금지)",
+  "note": "나눔글꼴: 광고물 이미지가 나눔글꼴 홍보에 쓰일 수 있음(라이선스 문구)."
+ },
+ {
+  "name": "고운바탕",
+  "lang": "ko",
+  "role": "부리(명조)",
+  "look": "부드러운 바탕",
+  "install": "https://noonnu.cc/font_page/733",
+  "webfont": [
+   {
+    "weight": 400,
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff"
+   },
+   {
+    "weight": 700,
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Bold.woff"
+   }
+  ],
+  "license": "상업 이용 OK — 눈누 사용 범위 6칸(인쇄·웹·포장지·영상·임베딩·BI/CI) 모두 「사용 가능」(2026-10-20 확인)",
+  "font_file": "배포 가능(판매 금지)",
+  "note": ""
+ },
+ {
+  "name": "부크크 명조",
+  "lang": "ko",
+  "role": "부리(명조)",
+  "look": "책 본문 명조",
+  "install": "https://noonnu.cc/font_page/1084",
+  "webfont": [
+   {
+    "weight": 700,
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/BookkMyungjo-Bd.woff2"
+   },
+   {
+    "weight": 300,
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/BookkMyungjo-Lt.woff2"
+   }
+  ],
+  "license": "상업 이용 OK — 눈누 사용 범위 6칸(인쇄·웹·포장지·영상·임베딩·BI/CI) 모두 「사용 가능」(2026-10-20 확인)",
+  "font_file": "파일 재배포 금지",
+  "note": ""
+ },
+ {
+  "name": "조선일보명조체",
+  "lang": "ko",
+  "role": "부리(명조)",
+  "look": "신문 명조",
+  "install": "https://noonnu.cc/font_page/63",
+  "webfont": [
+   {
+    "weight": "single",
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff"
+   }
+  ],
+  "license": "상업 이용 OK — 눈누 사용 범위 6칸(인쇄·웹·포장지·영상·임베딩·BI/CI) 모두 「사용 가능」(2026-10-20 확인)",
+  "font_file": "파일 재배포 금지",
+  "note": ""
+ },
+ {
+  "name": "우아한 세리프",
+  "lang": "ko",
+  "role": "부리(명조)",
+  "look": "대비 큰 세리프 제목(영문 글자 없음)",
+  "install": "https://noonnu.cc/font_page/1800",
+  "webfont": [
+   {
+    "weight": 700,
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/2604-1@1.0/GraceSerif-Bold.woff2"
+   },
+   {
+    "weight": 400,
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/2604-1@1.0/GraceSerif-Regular.woff2"
+   }
+  ],
+  "license": "상업 이용 OK — 눈누 사용 범위 6칸(인쇄·웹·포장지·영상·임베딩·BI/CI) 모두 「사용 가능」(2026-10-20 확인)",
+  "font_file": "배포 가능(판매 금지)",
+  "note": ""
+ },
+ {
+  "name": "교보손글씨 2019",
+  "lang": "ko",
+  "role": "손글씨",
+  "look": "일상 필기",
+  "install": "https://noonnu.cc/font_page/419",
+  "webfont": [
+   {
+    "weight": "single",
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/KyoboHand.woff"
+   }
+  ],
+  "license": "상업 이용 OK — 눈누 사용 범위 6칸(인쇄·웹·포장지·영상·임베딩·BI/CI) 모두 「사용 가능」(2026-10-20 확인)",
+  "font_file": "파일 재배포 금지",
+  "note": ""
+ },
+ {
+  "name": "이서윤체",
+  "lang": "ko",
+  "role": "손글씨",
+  "look": "가늘고 동글한 손글씨",
+  "install": "https://noonnu.cc/font_page/872",
+  "webfont": [
+   {
+    "weight": "single",
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff"
+   }
+  ],
+  "license": "상업 이용 OK — 눈누 사용 범위 6칸(인쇄·웹·포장지·영상·임베딩·BI/CI) 모두 「사용 가능」(2026-10-20 확인)",
+  "font_file": "파일 재배포 금지",
+  "note": ""
+ },
+ {
+  "name": "온글잎 박다현체",
+  "lang": "ko",
+  "role": "손글씨",
+  "look": "펜 손글씨",
+  "install": "https://noonnu.cc/font_page/1541",
+  "webfont": [
+   {
+    "weight": "single",
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/2411-3@1.0/Ownglyph_ParkDaHyun.woff2"
+   }
+  ],
+  "license": "상업 이용 OK — 눈누 사용 범위 6칸(인쇄·웹·포장지·영상·임베딩·BI/CI) 모두 「사용 가능」(2026-10-20 확인)",
+  "font_file": "파일 재배포 금지",
+  "note": ""
+ },
+ {
+  "name": "온글잎 콘콘체",
+  "lang": "ko",
+  "role": "손글씨",
+  "look": "동글 펜 손글씨",
+  "install": "https://noonnu.cc/font_page/1546",
+  "webfont": [
+   {
+    "weight": "single",
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/2412-1@1.0/Ownglyph_corncorn-Rg.woff2"
+   }
+  ],
+  "license": "상업 이용 OK — 눈누 사용 범위 6칸(인쇄·웹·포장지·영상·임베딩·BI/CI) 모두 「사용 가능」(2026-10-20 확인)",
+  "font_file": "파일 재배포 금지",
+  "note": ""
+ },
+ {
+  "name": "그리운 코코초이툰",
+  "lang": "ko",
+  "role": "손글씨",
+  "look": "만화 손글씨",
+  "install": "https://noonnu.cc/font_page/1745",
+  "webfont": [
+   {
+    "weight": "single",
+    "src": "https://cdn.jsdelivr.net/gh/projectnoonnu/2601-1@1.0/Griun_Cocochoitoon-Rg.woff2"
+   }
+  ],
+  "license": "상업 이용 OK — 눈누 사용 범위 6칸(인쇄·웹·포장지·영상·임베딩·BI/CI) 모두 「사용 가능」(2026-10-20 확인)",
+  "font_file": "파일 재배포 금지",
+  "note": ""
+ },
+ {
+  "name": "Instrument Serif",
+  "lang": "en",
+  "role": "세리프 제목",
+  "look": "좁은 세리프, 이탤릭이 예쁨",
+  "install": "https://fonts.google.com/specimen/Instrument+Serif",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap",
+  "license": "상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-20 확인)",
+  "font_file": "배포 가능(판매 금지)"
+ },
+ {
+  "name": "Gloock",
+  "lang": "en",
+  "role": "세리프 제목",
+  "look": "대비 큰 굵은 세리프",
+  "install": "https://fonts.google.com/specimen/Gloock",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=Gloock&display=swap",
+  "license": "상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-20 확인)",
+  "font_file": "배포 가능(판매 금지)"
+ },
+ {
+  "name": "DM Serif Display",
+  "lang": "en",
+  "role": "세리프 제목",
+  "look": "단단한 세리프, 이탤릭 있음",
+  "install": "https://fonts.google.com/specimen/DM+Serif+Display",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap",
+  "license": "상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-20 확인)",
+  "font_file": "배포 가능(판매 금지)"
+ },
+ {
+  "name": "Fraunces",
+  "lang": "en",
+  "role": "세리프 제목",
+  "look": "말랑한 세리프, 굵기·부드러움 조절",
+  "install": "https://fonts.google.com/specimen/Fraunces",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&display=swap",
+  "license": "상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-20 확인)",
+  "font_file": "배포 가능(판매 금지)"
+ },
+ {
+  "name": "Young Serif",
+  "lang": "en",
+  "role": "세리프 제목",
+  "look": "동글한 옛 세리프",
+  "install": "https://fonts.google.com/specimen/Young+Serif",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=Young+Serif&display=swap",
+  "license": "상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-20 확인)",
+  "font_file": "배포 가능(판매 금지)"
+ },
+ {
+  "name": "Bodoni Moda",
+  "lang": "en",
+  "role": "세리프 제목",
+  "look": "가늘고 날카로운 고전 세리프",
+  "install": "https://fonts.google.com/specimen/Bodoni+Moda",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400..900;1,400..900&display=swap",
+  "license": "상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-20 확인)",
+  "font_file": "배포 가능(판매 금지)"
+ },
+ {
+  "name": "Cormorant Garamond",
+  "lang": "en",
+  "role": "세리프 본문",
+  "look": "가늘고 우아한 가라몬드",
+  "install": "https://fonts.google.com/specimen/Cormorant+Garamond",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap",
+  "license": "상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-20 확인)",
+  "font_file": "배포 가능(판매 금지)"
+ },
+ {
+  "name": "Libre Caslon Display",
+  "lang": "en",
+  "role": "세리프 제목",
+  "look": "고전 캐슬론 제목",
+  "install": "https://fonts.google.com/specimen/Libre+Caslon+Display",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap",
+  "license": "상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-20 확인)",
+  "font_file": "배포 가능(판매 금지)"
+ },
+ {
+  "name": "Bricolage Grotesque",
+  "lang": "en",
+  "role": "고딕(그로테스크)",
+  "look": "개성 있는 굵은 그로테스크, 폭 조절",
+  "install": "https://fonts.google.com/specimen/Bricolage+Grotesque",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&display=swap",
+  "license": "상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-20 확인)",
+  "font_file": "배포 가능(판매 금지)"
+ },
+ {
+  "name": "Syne",
+  "lang": "en",
+  "role": "고딕(그로테스크)",
+  "look": "넓고 묘한 기하 고딕",
+  "install": "https://fonts.google.com/specimen/Syne",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap",
+  "license": "상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-20 확인)",
+  "font_file": "배포 가능(판매 금지)"
+ },
+ {
+  "name": "Space Grotesk",
+  "lang": "en",
+  "role": "고딕(그로테스크)",
+  "look": "살짝 기계적인 그로테스크",
+  "install": "https://fonts.google.com/specimen/Space+Grotesk",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap",
+  "license": "상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-20 확인)",
+  "font_file": "배포 가능(판매 금지)"
+ },
+ {
+  "name": "Archivo",
+  "lang": "en",
+  "role": "고딕(그로테스크)",
+  "look": "좁게~넓게 폭 조절, 블랙까지",
+  "install": "https://fonts.google.com/specimen/Archivo",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap",
+  "license": "상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-20 확인)",
+  "font_file": "배포 가능(판매 금지)"
+ },
+ {
+  "name": "DM Sans",
+  "lang": "en",
+  "role": "고딕(본문)",
+  "look": "담백한 본문 고딕",
+  "install": "https://fonts.google.com/specimen/DM+Sans",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@300..700&display=swap",
+  "license": "상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-20 확인)",
+  "font_file": "배포 가능(판매 금지)"
+ },
+ {
+  "name": "Inter",
+  "lang": "en",
+  "role": "고딕(본문)",
+  "look": "화면용 표준 고딕",
+  "install": "https://fonts.google.com/specimen/Inter",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=Inter:wght@300..800&display=swap",
+  "license": "상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-20 확인)",
+  "font_file": "배포 가능(판매 금지)"
+ },
+ {
+  "name": "Work Sans",
+  "lang": "en",
+  "role": "고딕(본문)",
+  "look": "둥글둥글 본문 고딕",
+  "install": "https://fonts.google.com/specimen/Work+Sans",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=Work+Sans:wght@300..800&display=swap",
+  "license": "상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-20 확인)",
+  "font_file": "배포 가능(판매 금지)"
+ },
+ {
+  "name": "Bebas Neue",
+  "lang": "en",
+  "role": "좁은 대문자",
+  "look": "포스터용 좁은 대문자(대문자만)",
+  "install": "https://fonts.google.com/specimen/Bebas+Neue",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap",
+  "license": "상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-20 확인)",
+  "font_file": "배포 가능(판매 금지)"
+ },
+ {
+  "name": "Anton",
+  "lang": "en",
+  "role": "좁은 대문자",
+  "look": "굵고 좁은 제목",
+  "install": "https://fonts.google.com/specimen/Anton",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=Anton&display=swap",
+  "license": "상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-20 확인)",
+  "font_file": "배포 가능(판매 금지)"
+ },
+ {
+  "name": "Unbounded",
+  "lang": "en",
+  "role": "넓은 제목",
+  "look": "둥글고 넓은 기하 제목",
+  "install": "https://fonts.google.com/specimen/Unbounded",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=Unbounded:wght@300..900&display=swap",
+  "license": "상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-20 확인)",
+  "font_file": "배포 가능(판매 금지)"
+ },
+ {
+  "name": "DM Mono",
+  "lang": "en",
+  "role": "고정폭",
+  "look": "숫자·정보용 고정폭",
+  "install": "https://fonts.google.com/specimen/DM+Mono",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap",
+  "license": "상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-20 확인)",
+  "font_file": "배포 가능(판매 금지)"
+ },
+ {
+  "name": "JetBrains Mono",
+  "lang": "en",
+  "role": "고정폭",
+  "look": "또렷한 코드 글꼴",
+  "install": "https://fonts.google.com/specimen/JetBrains+Mono",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300..800&display=swap",
+  "license": "상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-20 확인)",
+  "font_file": "배포 가능(판매 금지)"
+ },
+ {
+  "name": "Yellowtail",
+  "lang": "en",
+  "role": "필기체",
+  "look": "힘 있는 레트로 붓 필기체",
+  "install": "https://fonts.google.com/specimen/Yellowtail",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=Yellowtail&display=swap",
+  "license": "상업 이용 OK — Apache 2.0(구글 폰트 공식 저장소 라이선스 파일 2026-10-20 확인)",
+  "font_file": "배포 가능(라이선스 고지)"
+ },
+ {
+  "name": "Great Vibes",
+  "lang": "en",
+  "role": "필기체",
+  "look": "정중한 캘리그래피",
+  "install": "https://fonts.google.com/specimen/Great+Vibes",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap",
+  "license": "상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-20 확인)",
+  "font_file": "배포 가능(판매 금지)"
+ },
+ {
+  "name": "Pinyon Script",
+  "lang": "en",
+  "role": "필기체",
+  "look": "가는 고전 필기체",
+  "install": "https://fonts.google.com/specimen/Pinyon+Script",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap",
+  "license": "상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-20 확인)",
+  "font_file": "배포 가능(판매 금지)"
+ },
+ {
+  "name": "Caveat",
+  "lang": "en",
+  "role": "손글씨",
+  "look": "자연스러운 펜 손글씨",
+  "install": "https://fonts.google.com/specimen/Caveat",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap",
+  "license": "상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-20 확인)",
+  "font_file": "배포 가능(판매 금지)"
+ },
+ {
+  "name": "Noto Sans JP",
+  "lang": "ja",
+  "role": "일본어 고딕",
+  "look": "구글·어도비 공동 기본 고딕 9굵기. 본문·자막 만능",
+  "install": "https://fonts.google.com/specimen/Noto+Sans+JP",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700;900&display=swap",
+  "default_weight": 700,
+  "license": "상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-23 확인)",
+  "font_file": "배포 가능(판매 금지)"
+ },
+ {
+  "name": "Zen Kaku Gothic New",
+  "lang": "ja",
+  "role": "일본어 고딕",
+  "look": "부드럽고 정갈한 고딕 5굵기, 본문이 읽기 편함",
+  "install": "https://fonts.google.com/specimen/Zen+Kaku+Gothic+New",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap",
+  "default_weight": 700,
+  "license": "상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-23 확인)",
+  "font_file": "배포 가능(판매 금지)"
+ },
+ {
+  "name": "M PLUS 1p",
+  "lang": "ja",
+  "role": "일본어 고딕",
+  "look": "반듯한 현대 고딕 7굵기, 숫자가 깔끔",
+  "install": "https://fonts.google.com/specimen/M+PLUS+1p",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300;400;700;900&display=swap",
+  "default_weight": 800,
+  "license": "상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-23 확인)",
+  "font_file": "배포 가능(판매 금지)"
+ },
+ {
+  "name": "BIZ UDPGothic",
+  "lang": "ja",
+  "role": "일본어 고딕",
+  "look": "읽기 쉬운 UD 고딕, 표·가격 안내용",
+  "install": "https://fonts.google.com/specimen/BIZ+UDPGothic",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&display=swap",
+  "default_weight": 700,
+  "license": "상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-23 확인)",
+  "font_file": "배포 가능(판매 금지)"
+ },
+ {
+  "name": "Murecho",
+  "lang": "ja",
+  "role": "일본어 고딕",
+  "look": "살짝 각진 개성 고딕 9굵기",
+  "install": "https://fonts.google.com/specimen/Murecho",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=Murecho:wght@300;400;700;900&display=swap",
+  "default_weight": 700,
+  "license": "상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-23 확인)",
+  "font_file": "배포 가능(판매 금지)"
+ },
+ {
+  "name": "Zen Maru Gothic",
+  "lang": "ja",
+  "role": "둥근 고딕",
+  "look": "부드러운 둥근 고딕 5굵기, 뷰티·생활용품",
+  "install": "https://fonts.google.com/specimen/Zen+Maru+Gothic",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap",
+  "default_weight": 700,
+  "license": "상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-23 확인)",
+  "font_file": "배포 가능(판매 금지)"
+ },
+ {
+  "name": "Kosugi Maru",
+  "lang": "ja",
+  "role": "둥근 고딕",
+  "look": "단정한 둥근 고딕 1굵기",
+  "install": "https://fonts.google.com/specimen/Kosugi+Maru",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap",
+  "default_weight": 400,
+  "license": "상업 이용 OK — Apache 2.0(구글 폰트 공식 저장소 라이선스 파일 2026-10-23 확인)",
+  "font_file": "배포 가능(라이선스 고지)"
+ },
+ {
+  "name": "Kiwi Maru",
+  "lang": "ja",
+  "role": "둥근 고딕",
+  "look": "동글동글한 둥근 명조풍, 귀여움",
+  "install": "https://fonts.google.com/specimen/Kiwi+Maru",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&display=swap",
+  "default_weight": 500,
+  "license": "상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-23 확인)",
+  "font_file": "배포 가능(판매 금지)"
+ },
+ {
+  "name": "Noto Serif JP",
+  "lang": "ja",
+  "role": "명조",
+  "look": "기본 명조 8굵기. 제목·본문 모두",
+  "install": "https://fonts.google.com/specimen/Noto+Serif+JP",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;700;900&display=swap",
+  "default_weight": 700,
+  "license": "상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-23 확인)",
+  "font_file": "배포 가능(판매 금지)"
+ },
+ {
+  "name": "Zen Old Mincho",
+  "lang": "ja",
+  "role": "명조",
+  "look": "고전적인 명조, 고급 브랜드·에디토리얼",
+  "install": "https://fonts.google.com/specimen/Zen+Old+Mincho",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@400;700;900&display=swap",
+  "default_weight": 700,
+  "license": "상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-23 확인)",
+  "font_file": "배포 가능(판매 금지)"
+ },
+ {
+  "name": "Shippori Mincho",
+  "lang": "ja",
+  "role": "명조",
+  "look": "날렵하고 우아한 명조 5굵기",
+  "install": "https://fonts.google.com/specimen/Shippori+Mincho",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;700;800&display=swap",
+  "default_weight": 700,
+  "license": "상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-23 확인)",
+  "font_file": "배포 가능(판매 금지)"
+ },
+ {
+  "name": "Hina Mincho",
+  "lang": "ja",
+  "role": "명조",
+  "look": "가늘고 여린 명조, 감성 한 줄",
+  "install": "https://fonts.google.com/specimen/Hina+Mincho",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap",
+  "default_weight": 400,
+  "license": "상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-23 확인)",
+  "font_file": "배포 가능(판매 금지)"
+ },
+ {
+  "name": "BIZ UDPMincho",
+  "lang": "ja",
+  "role": "명조",
+  "look": "읽기 쉬운 UD 명조, 문서·제안서",
+  "install": "https://fonts.google.com/specimen/BIZ+UDPMincho",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=BIZ+UDPMincho:wght@400;700&display=swap",
+  "default_weight": 700,
+  "license": "상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-23 확인)",
+  "font_file": "배포 가능(판매 금지)"
+ },
+ {
+  "name": "Dela Gothic One",
+  "lang": "ja",
+  "role": "굵은 제목",
+  "look": "아주 굵은 블랙 고딕, 썸네일·세일",
+  "install": "https://fonts.google.com/specimen/Dela+Gothic+One",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap",
+  "default_weight": 400,
+  "license": "상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-23 확인)",
+  "font_file": "배포 가능(판매 금지)"
+ },
+ {
+  "name": "RocknRoll One",
+  "lang": "ja",
+  "role": "굵은 제목",
+  "look": "둥글고 두꺼운 팝 제목",
+  "install": "https://fonts.google.com/specimen/RocknRoll+One",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap",
+  "default_weight": 400,
+  "license": "상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-23 확인)",
+  "font_file": "배포 가능(판매 금지)"
+ },
+ {
+  "name": "Reggae One",
+  "lang": "ja",
+  "role": "굵은 제목",
+  "look": "각지고 힘찬 제목, 이벤트 고지",
+  "install": "https://fonts.google.com/specimen/Reggae+One",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=Reggae+One&display=swap",
+  "default_weight": 400,
+  "license": "상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-23 확인)",
+  "font_file": "배포 가능(판매 금지)"
+ },
+ {
+  "name": "Mochiy Pop One",
+  "lang": "ja",
+  "role": "굵은 제목",
+  "look": "통통한 팝 제목, 귀여운 공지",
+  "install": "https://fonts.google.com/specimen/Mochiy+Pop+One",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap",
+  "default_weight": 400,
+  "license": "상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-23 확인)",
+  "font_file": "배포 가능(판매 금지)"
+ },
+ {
+  "name": "Klee One",
+  "lang": "ja",
+  "role": "손글씨",
+  "look": "연필로 쓴 듯한 교과서풍 손글씨 2굵기",
+  "install": "https://fonts.google.com/specimen/Klee+One",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&display=swap",
+  "default_weight": 600,
+  "license": "상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-23 확인)",
+  "font_file": "배포 가능(판매 금지)"
+ },
+ {
+  "name": "Yomogi",
+  "lang": "ja",
+  "role": "손글씨",
+  "look": "가볍고 친근한 손글씨",
+  "install": "https://fonts.google.com/specimen/Yomogi",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=Yomogi&display=swap",
+  "default_weight": 400,
+  "license": "상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-23 확인)",
+  "font_file": "배포 가능(판매 금지)"
+ },
+ {
+  "name": "Zen Kurenaido",
+  "lang": "ja",
+  "role": "손글씨",
+  "look": "붓펜 느낌의 가는 손글씨",
+  "install": "https://fonts.google.com/specimen/Zen+Kurenaido",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap",
+  "default_weight": 400,
+  "license": "상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-23 확인)",
+  "font_file": "배포 가능(판매 금지)"
+ },
+ {
+  "name": "Yusei Magic",
+  "lang": "ja",
+  "role": "손글씨",
+  "look": "매직펜으로 쓴 굵은 손글씨, POP",
+  "install": "https://fonts.google.com/specimen/Yusei+Magic",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap",
+  "default_weight": 400,
+  "license": "상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-23 확인)",
+  "font_file": "배포 가능(판매 금지)"
+ },
+ {
+  "name": "Kaisei Decol",
+  "lang": "ja",
+  "role": "장식",
+  "look": "곡선 장식이 들어간 명조, 감성 제목",
+  "install": "https://fonts.google.com/specimen/Kaisei+Decol",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@400;700&display=swap",
+  "default_weight": 700,
+  "license": "상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-23 확인)",
+  "font_file": "배포 가능(판매 금지)"
+ },
+ {
+  "name": "DotGothic16",
+  "lang": "ja",
+  "role": "장식",
+  "look": "도트(픽셀) 고딕, 레트로",
+  "install": "https://fonts.google.com/specimen/DotGothic16",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=DotGothic16&display=swap",
+  "default_weight": 400,
+  "license": "상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-23 확인)",
+  "font_file": "배포 가능(판매 금지)"
+ },
+ {
+  "name": "Zen Antique",
+  "lang": "ja",
+  "role": "장식",
+  "look": "옛 활자 느낌 명조, 레트로·전통",
+  "install": "https://fonts.google.com/specimen/Zen+Antique",
+  "webfont_css": "https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap",
+  "default_weight": 400,
+  "license": "상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-23 확인)",
+  "font_file": "배포 가능(판매 금지)"
+ }
+]

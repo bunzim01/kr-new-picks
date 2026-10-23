@@ -1,0 +1,24 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><title>폰트 페어링 미리보기</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gloock&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap">
+<style>@font-face{font-family:'프리텐다드';font-weight:400;font-display:block;src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Regular.woff2') format('woff2')}
+@font-face{font-family:'프리텐다드';font-weight:300;font-display:block;src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Light.woff2') format('woff2')}
+@font-face{font-family:'프리텐다드';font-weight:700;font-display:block;src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Bold.woff2') format('woff2')}
+@font-face{font-family:'프리텐다드';font-weight:800;font-display:block;src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-ExtraBold.woff2') format('woff2')}
+html,body{margin:0} body{width:1080px;height:1350px;background:#fff3d6;color:#1d1f17;position:relative;overflow:hidden;word-break:keep-all;-webkit-font-smoothing:antialiased}
+.wrap{position:absolute;left:90px;right:90px;top:170px;display:flex;flex-direction:column;align-items:center;gap:44px;text-align:center}
+.head{text-align:center}
+.hl-line{line-height:1.02;letter-spacing:-.03em;white-space:nowrap}
+.xhl{display:inline-block;position:relative;padding:0 .08em}
+.body{max-width:820px;font-family:'프리텐다드';font-weight:300;font-size:34px;line-height:1.6}
+.spec{font-size:40px;padding-top:24px;border-top:1.5px solid currentColor} .spec i{font-style:normal;opacity:.5;margin:0 14px;font-family:'프리텐다드'}
+.lics{position:absolute;left:120px;right:120px;bottom:70px;font-family:'프리텐다드';font-weight:300;font-size:20px;line-height:1.5;opacity:.78}
+.lic{margin-top:8px} .lic small{font-size:16px}
+</style></head><body>
+<div class="wrap"><div class="head"><div class="hl-line" data-fit="900" style="font-family:'DM Mono';font-weight:400;font-style:normal;font-size:96px">find your</div><div class="hl-line" data-fit="900" style="font-family:'Gloock';font-weight:400;font-style:normal;font-size:150px"><span class="xhl" data-xhl="#ffb070">perfect</span></div><div class="hl-line" data-fit="900" style="font-family:'Gloock';font-weight:400;font-style:normal;font-size:150px">pair.</div></div>
+<div class="body">두 폰트, 한 분위기</div>
+<div class="spec"><span style="font-family:'Gloock';font-weight:400">Gloock</span> <i>×</i> <span style="font-family:'DM Mono';font-weight:400">DM Mono</span></div></div>
+<div class="lics"><div class="lic"><b>Gloock</b> · https://fonts.google.com/specimen/Gloock<br><small>상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-20 확인) · 폰트 파일 배포 가능(판매 금지)</small></div><div class="lic"><b>DM Mono</b> · https://fonts.google.com/specimen/DM+Mono<br><small>상업 이용 OK — SIL OFL 1.1(구글 폰트 공식 저장소 라이선스 파일 2026-10-20 확인) · 폰트 파일 배포 가능(판매 금지)</small></div><div class="lic"><b>프리텐다드</b> · https://noonnu.cc/font_page/694<br><small>상업 이용 OK — 눈누 사용 범위 6칸(인쇄·웹·포장지·영상·임베딩·BI/CI) 모두 「사용 가능」(2026-10-20 확인) · 폰트 파일 배포 가능(판매 금지)</small></div></div>
+<script>document.fonts.ready.then(()=>{
+ document.querySelectorAll('[data-fit]').forEach(e=>{const s=document.createElement('span');s.style.cssText='display:inline-block;white-space:nowrap';while(e.firstChild)s.appendChild(e.firstChild);e.appendChild(s);const w=s.getBoundingClientRect().width,fs=parseFloat(getComputedStyle(e).fontSize);if(w>e.dataset.fit)e.style.fontSize=(fs*e.dataset.fit/w)+'px'});
+ document.querySelectorAll('[data-xhl]').forEach(e=>{const cs=getComputedStyle(e),c=document.createElement('canvas').getContext('2d');c.font=cs.fontStyle+' '+cs.fontWeight+' '+cs.fontSize+' '+cs.fontFamily;const xh=c.measureText('x').actualBoundingBoxAscent,S=parseFloat(cs.fontSize);const m=document.createElement('span');m.style.cssText='display:inline-block;width:0;height:0;vertical-align:baseline';e.appendChild(m);const base=m.offsetTop;m.remove();const t=base-xh-.05*S,b=base+.07*S,col=e.dataset.xhl;e.style.background=`linear-gradient(transparent ${t}px,${col} ${t}px,${col} ${b}px,transparent ${b}px)`});
+ document.body.dataset.ready='1'})</script></body></html>
